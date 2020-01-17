@@ -1,0 +1,11 @@
+.grid-item{
+	background-color: red;	
+}
+
+.grid-container{
+	background-color:black;
+	display: grid;
+	grid-template-columns: repeat(16, auto);
+	width:95vh;
+	height:95vh;
+}
